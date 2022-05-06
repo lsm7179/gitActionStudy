@@ -16,7 +16,7 @@ bootJar {
 
 jar {
     enabled = true
-    archivesBaseName = 'hello'
+    archivesBaseName = 'hello2'
 }
 
 repositories {
