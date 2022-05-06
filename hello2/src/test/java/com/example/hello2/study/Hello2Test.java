@@ -11,6 +11,7 @@ public class Hello2Test {
     @Test
     @DisplayName("hello2")
     void name() {
+        System.out.println("hello2 모듈이에요.");
         assertThat("hello2").isNotNull();
     }
 }

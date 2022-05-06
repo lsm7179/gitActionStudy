@@ -1,1 +1,3 @@
 rootProject.name = 'gitActionStudy'
+include 'hello'
+include 'hello2'
