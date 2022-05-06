@@ -5,9 +5,6 @@ on:
     branches: [master]
   pull_request: 
     branches: [master]
-   
-# 해당 옵션을 통해 사용자가 직접 Actions 탭에서 Workflow를 실행시킬 수 있습니다.
-workflow_dispatch:
   
 jobs:
   build:
@@ -26,4 +23,3 @@ jobs:
 
       - name: Test with Gradle
         run: ./gradlew clean test:hello --info
-
