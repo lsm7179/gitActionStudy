@@ -12,6 +12,7 @@ public class HelloTest {
     @DisplayName("hello")
     void name() {
         System.out.println("hell 모듈이에요");
+        System.out.println("hell 모듈이에요");
         assertThat("hello").isNotNull();
     }
 }
